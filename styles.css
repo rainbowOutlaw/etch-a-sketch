@@ -8,14 +8,22 @@
     width: 500px;
     height: 500px;
     background-color: aqua;
-    margin-top: 10vh;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
 }
 
+.body-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.range-input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 .box{
     background-color: black;

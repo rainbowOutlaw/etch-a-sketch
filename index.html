@@ -6,7 +6,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container"></div>
+    <div class="body-container">
+        <div class="range-input">
+            <label for="size">Select number of boxes per side: <span class="num-boxes"></span></label>
+            <input type="range" id="size" name="size" min="2" max="100" step="any">
+        </div>
+        <div class="container"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

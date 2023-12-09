@@ -1,4 +1,6 @@
 const container = document.querySelector('.container');
+const input = document.querySelector('#size');
+const inputVal = docuemnt.querySelector('.num-boxes');
 
 const size = 500/30;
 
@@ -26,3 +28,7 @@ boxesArr.map((boxElem) => {
         boxElem.style['background-color'] = 'pink';
     })
 })
+
+// Range-input change
+
+
