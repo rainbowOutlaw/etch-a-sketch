@@ -1,6 +1,6 @@
 const container = document.querySelector('.container');
 const input = document.querySelector('#size');
-const inputVal = docuemnt.querySelector('.num-boxes');
+const inputVal = document.querySelector('.num-boxes');
 
 const size = 500/30;
 
@@ -31,4 +31,6 @@ boxesArr.map((boxElem) => {
 
 // Range-input change
 
-
+input.addEventListener('input', (event) => {
+    inputVal.textContent = event.target.value;
+})
